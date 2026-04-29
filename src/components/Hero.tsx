@@ -31,6 +31,8 @@ export default function Hero() {
           src="https://i.ibb.co/VYJT35Jn/4-X-la-terrazza-tampa-fl-1.jpg"
           className="w-full h-full object-cover object-center"
           referrerPolicy="no-referrer"
+          loading="eager"
+          fetchPriority="high"
           alt="La Terrazza Restaurant Interior"
         />
         {/* Horizontal Dark Overlay to match design HTML style */}

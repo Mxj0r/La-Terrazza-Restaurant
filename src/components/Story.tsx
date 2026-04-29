@@ -47,8 +47,9 @@ export default function Story() {
           <motion.div variants={itemVariants} className="relative group">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden border border-gold/10 shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&q=80" 
+                src="https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&q=80&w=800" 
                 alt="Pasta making at La Terrazza"
+                loading="lazy"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-charcoal/10" />

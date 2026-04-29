@@ -75,7 +75,7 @@ export default function Menu() {
       <div 
         className="absolute inset-0 z-0 opacity-5 pointer-events-none"
         style={{ 
-          backgroundImage: 'url("https://images.unsplash.com/photo-1546549032-9571cd6b27df?auto=format&fit=crop&q=80")',
+          backgroundImage: 'url("https://images.unsplash.com/photo-1546549032-9571cd6b27df?auto=format&fit=crop&q=80&w=1200")',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
