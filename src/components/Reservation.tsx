@@ -29,7 +29,7 @@ export default function Reservation() {
        <div 
         className="absolute inset-0 z-0 opacity-[0.07] pointer-events-none grayscale"
         style={{ 
-          backgroundImage: 'url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80")',
+          backgroundImage: 'url("https://i.ibb.co/VYJT35Jn/4-X-la-terrazza-tampa-fl-1.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}

@@ -27,12 +27,14 @@ export default function Hero() {
         style={{ scale: bgScale }}
         className="absolute inset-0 z-0 bg-charcoal"
       >
-        <div 
-          className="w-full h-full bg-cover bg-center"
-          style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80")' }}
+        <img 
+          src="https://i.ibb.co/VYJT35Jn/4-X-la-terrazza-tampa-fl-1.jpg"
+          className="w-full h-full object-cover object-center"
+          referrerPolicy="no-referrer"
+          alt="La Terrazza Restaurant Interior"
         />
         {/* Horizontal Dark Overlay to match design HTML style */}
-        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/95 via-charcoal/40 to-charcoal/95" />
+        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 via-charcoal/20 to-charcoal/80" />
       </motion.div>
 
       {/* Content Grid */}
